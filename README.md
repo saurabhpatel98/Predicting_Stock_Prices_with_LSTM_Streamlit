@@ -11,6 +11,10 @@ This is a Python-based tool that allows users to compare multiple stocks and vis
 
 With this tool, users can easily compare the performance of different stocks and make informed investment decisions based on the data.
 
+![compare_stocks](https://user-images.githubusercontent.com/26132974/231573779-7a2807f7-eb88-434d-8056-1f1852fc674f.png)
+![home_page](https://user-images.githubusercontent.com/26132974/231573780-f7915c8d-2b00-44f6-b7e1-408275f13e80.png)
+![Two_or_more_stock_compare](https://user-images.githubusercontent.com/26132974/231573781-3d983621-543f-4f9a-8057-31095aadeea4.png)
+
 
 * Create a virtual environment
   * install virtual environment
