@@ -1,12 +1,15 @@
-Sentiment Analysis Dashboard on Amazon Product reviews using streamlit and NLP This project provides an interactive dashboard for performing sentiment analysis on product and company reviews. The dashboard is built using Python and Streamlit, and allows users to filter and visualize reviews from a dataset of customer reviews for various products and companies.
 
-The dashboard offers three filters: by company, by product, and by sentiment result. Users can select multiple companies and products to filter the reviews, and can see the filtered data in a table view. The sentiment analysis results are displayed in a pie chart or a bar chart, depending on user preference. The dashboard also provides some key performance indicators (KPIs) such as the total number of reviews, the number and percentage of positive and negative reviews, and the average rating.
+"# Predicting_Stock_Prices_with_LSTM_Streamlit" 
 
-The code uses a machine learning model based on Natural Language Processing (NLP) techniques to perform sentiment analysis on the reviews. The model was trained on a dataset of product reviews using Python's Scikit-learn library. The resulting model is then used to classify the reviews as positive or negative.
+This code is for a web app that predicts stock prices using machine learning. It uses the Streamlit library for building the user interface, Pandas for data manipulation, yfinance for fetching stock data, NumPy for numerical operations, Matplotlib and Plotly for data visualization, and Keras for building a Long Short-Term Memory (LSTM) model for predicting stock prices. The app allows the user to select a stock from a list of companies and also provides an option to enter a custom stock symbol. After selecting a stock, the app downloads the stock data for the last 10 years, preprocesses the data, and trains an LSTM model on the data to make future price predictions. Finally, the predicted prices are visualized using Plotly. The app also calculates the root mean squared error (RMSE) between the predicted and actual prices. This code can be used as a starting point for building a web app for stock price prediction.
 
-The dashboard is deployed on Heroku, a cloud platform that allows users to deploy, manage, and scale applications. The source code is available on GitHub, along with the dataset used for training the sentiment analysis model.
+This is a Python-based tool that allows users to compare multiple stocks and visualize their performance through interactive charts. Some of the key features of this tool include:
 
-Overall, this project provides an easy-to-use and interactive way to analyze customer sentiment towards products and companies. The dashboard can be useful for companies to monitor their online reputation, identify areas for improvement, and make data-driven decisions based on customer feedback.
+1. Compare multiple stocks: Users can compare the performance of up to five stocks at once, allowing them to quickly spot trends and make informed investment decisions.
+2. Improved chart: The tool includes an interactive chart that displays detailed stock information such as price, volume, and moving averages. Users can zoom in and out of the chart to better analyze the data.
+3. Easy to use: The tool has a simple command-line interface that allows users to quickly enter the stocks they want to compare and view the results.
+
+With this tool, users can easily compare the performance of different stocks and make informed investment decisions based on the data.
 
 
 * Create a virtual environment
@@ -42,7 +45,7 @@ Overall, this project provides an easy-to-use and interactive way to analyze cus
 * Prerequisites: [Python 3.9](https://www.python.org/downloads/)
 * Open Terminal >> navigate to working directory >> Clone this Github Repo
 
-      git clone https://github.com/saurabhpatel98/sentiment-analysis-web-app_on_ProductReview_using_streamlit_and_nlp.git  
+      git clone https://github.com/saurabhpatel98/Predicting_Stock_Prices_with_LSTM_Streamlit.git  
 * Navigate to new working directory (cloned repo folder)
 * Create a virtual environment
   * install virtual environment
@@ -68,12 +71,6 @@ Overall, this project provides an easy-to-use and interactive way to analyze cus
 
       deactivate
       
-      
-![Filtered_data](https://user-images.githubusercontent.com/26132974/231563817-e8edacac-331f-411d-a5df-ae225941a914.png)
-![result](https://user-images.githubusercontent.com/26132974/231563901-f963a9d1-7ea4-48ce-a37f-d1dd40a29d94.png)
-![Main Page](https://user-images.githubusercontent.com/26132974/231563905-8995483d-c76f-4641-8b94-8a497bd5b938.png)
-
 
       
 
-"# Predicting_Stock_Prices_with_LSTM_Streamlit" 
